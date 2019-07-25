@@ -22,6 +22,21 @@
   color: #61dafb;
 }
 
+.countries{
+  display:block;
+  float:left;
+  text-align: left;
+  padding-left: 50px;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+.country-info{
+  border:solid black;
+  width:25%;
+  display: block;
+  float: left;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
